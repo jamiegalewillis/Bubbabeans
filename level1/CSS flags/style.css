@@ -1,0 +1,294 @@
+
+.france {
+    margin:10px;
+    border: black 1px solid;
+    height:200px;
+    Width:300px;
+    display:inline-block;
+    
+
+}
+.f1{    
+background-color: blue;
+height:100%;
+width:100px;
+float:left
+ }
+
+.f2{
+    background-color: white;
+    height: 100%;
+    width:100px;
+    float:left
+    
+}
+.f3{
+background-color: red;
+width:100px;
+height:100%;
+float:left
+}
+
+    
+.germany{
+margin-top: 5px;
+    height: 300px;
+    width: 500px;
+    border:1px solid black;
+    display:block;
+    position:relative
+}
+.g1{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position:absolute;
+    top:0px;
+  
+}
+.g2{
+    
+    background-color:red;
+    height: 100px;
+    width:100%;
+    position:absolute; 
+    top:100px;
+  
+}
+
+.g3{
+    
+    background-color: #FFCE00;
+    height: 100px;
+    width:100%;
+    position:absolute;
+    top: 200px
+ 
+}
+.madagascar{
+margin-top: 10px;
+height: 200px;
+width: 300px;
+border:1px solid black;
+display: inline-block;
+position:relative;
+}
+.m1{
+    background-color:white;
+    height:100%;
+    width:100px;
+    position:absolute;
+    top:0px;
+left:0px;
+    
+  
+}
+.m2{
+    background-color: red;
+    height: 50%;
+    width: 200px;
+    position:absolute;
+    top:0px;
+    left:100px
+}
+.m3{
+    background-color: green;
+    height:50%;
+    width:200px;
+    position:absolute;
+    top:100px;
+    left:100px
+}
+.switzerland{
+    margin-top: 10px;
+    height:300px;
+    width:300px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+   
+
+}
+.box1{
+    width:120px;
+    height:120px;
+    background-color:red;
+    position: absolute;
+    left:0px;
+    top:0px;
+    position: absolute;
+
+}
+.box2{
+    width: 120px;
+    height:120px;
+    background-color:red;
+    position: absolute;
+    top:0px;
+    right:0px;
+    
+}
+.box3{
+        width: 120px;
+        height:120px;
+        background-color: red;
+        position: absolute;
+        bottom:0px;
+        left:0px;
+    }
+.box4{
+    width:120px;
+    height:120px;
+    background-color: red;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.sweden{
+    margin: top 10px;
+    height:300px;
+    width: 450px;
+    border: black 1px solid;
+    position: relative;
+    background-color: #FECC00;
+}
+.rec1{
+    width:120px;
+    height:120px;
+    position: absolute;
+    background-color: #0269A6;
+    top:0px;
+    left:0px;
+}
+.rec2{
+    width:120px;
+    height:120px;
+    position: absolute;
+    background-color: #0269A6;
+    bottom:0px;
+    left:0px;
+
+}
+.rec3{
+    height:120px;
+    width: 270px;
+    position: absolute;
+    background-color:#0269A6;
+    top:0px;
+    right:0px;
+
+}
+.rec4{
+    height:120px;
+    width: 270px;
+    position: absolute;
+    background-color:#0269A6;
+    bottom:0px;
+    right:0px
+
+
+}
+.gambia{
+    margin-top: 10px;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+}
+
+.ga1{
+    height:66.66%;
+    width:100%;
+    background-color: #CE1127;
+}
+.ga2
+{
+    height:16.66%;
+    width:100%;
+    background-color: white
+}
+
+.ga3{
+    height:33.33%;
+    width: 100%;
+    background-color: blue
+}
+.ga4{
+    height:16.66px;
+    width:100%;
+    background-color: white;
+}
+.ga5{
+    height:66px;
+    width:100%;
+    background-color: green;
+}
+.japan{
+margin-top: 10px;
+        width:300px;
+        height:200px;
+        background:white;
+        border:1px solid black;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+.circle{
+    background: red;
+flex-basis: 100px;
+border-radius: 50%;
+min-height: 100px;
+}
+
+
+.niger{
+    margin-top: 5px;
+    height: 600px;
+    width: 700px;
+    border: solid black 1px;
+    position:relative;
+  
+    
+}
+.n1{
+    
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    position:absolute;
+    left:0px;
+    top:0px;
+   
+   
+    
+}
+.n2{
+    width:100%;
+    height: 200px;
+    background-color: white;
+    position:absolute;
+    left:0px;
+    top:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center
+    
+    
+}
+.n3{
+    
+    width: 100%;
+    height: 200px;
+    background-color:green;
+    position:absolute;
+    left:0px;
+    top:400px
+    
+}
+.circle2{
+background:orange;
+flex-basis: 150px;
+border-radius: 50%;
+min-height: 150px;
+}

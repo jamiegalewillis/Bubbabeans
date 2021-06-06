@@ -1,0 +1,93 @@
+
+.nav1 {
+    background-color: royalblue;
+    overflow: hidden}
+  
+.nav1 a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 65px;
+      }
+      .nav1 a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .nav1 a.active {
+        background-color: blue;
+        color: white;
+      }
+      .nav1 .icon {
+        display: none;
+      }
+      @media (max-width: 600px) {
+        .nav1 a:not(:first-child) {display: none;}
+        .nav1 a.icon {
+          float: right;
+          display: block;
+        }
+      }
+      h2{
+          font-size: 25px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+        }
+      @media (max-width: 600px) {
+        .cards a:not(:first-child) {display: none;}
+        .cards a.icon {
+            float:right;
+            display:block
+    
+        }
+      }
+    .cards{
+        height:200px;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+    img {
+        width: 187px;
+        height: 267px;
+        background-color: grey;
+    }
+    .caption {
+        display: block;}
+    
+        div.barrybonds{    
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;}
+       
+    div.markmcguire{ 
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;}
+    div.calripken{
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+    }
+
+        article{
+            margin: 60px;
+            padding: 45px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        section{
+            margin:20px;
+            padding:10px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
