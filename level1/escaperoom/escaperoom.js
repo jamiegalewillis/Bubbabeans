@@ -1,10 +1,9 @@
 const readlineSync = require("readline-sync");
- 
 const userName = readlineSync.question("What is your name?");
     console.log("Hi " + userName + "!");
 const entrance = readlineSync.question('Shall we start? [Y] or [N] ');
     if (entrance == "y"){
-     console.log("Awesome! " +userName+ " Let's start!")
+     console.log("Awesome! " +userName+ " Let's start! You are locked in a cave. Your choices are find the key. Open the door. stickm your hand in na hole in the wall. If you put ypur hand in the hole, YOU DIE!!!")
     } 
     else if (entrance == "n"){
      console.log('Maybe some other time')
