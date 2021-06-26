@@ -12,62 +12,74 @@
 .box2{
     height:400px;
     width:100%;
-    display:block
+    display:inline-block
 }
-div.box2a{
+.box2a{
+    height:100px;
+    width: 100%;
+    background-color:#EE2E84;
+    border:10px solid white;
+    display: inline-block   
+}
+.box2b{
     height:100px;
     width:100%;
     background-color:#EE2E84;
-    border:10px solid white}
-div.box2b{
-    height:100px;
-    width:100%;
-    background-color:#EE2E84;
-    border:10px solid white}
+    border:10px solid white;
+    display:inline-block
+}
 
-div.box2c{
+.box2c{
     height:100px;
-    width:100%;
+    width: 100%;
     background-color:#EE2E84;
-    border:10px solid white}
+    border:10px solid white;
+    display: inline-block;
+}
      
-div.box2d{
+.box2d{
     height:100px;
     width:100%;
     background-color:#EE2E84;
-    border:10px solid white}  
+    border:10px solid white;
+    display: inline-block;
+}  
 
 .box3{
     height:200px;
     width:100%;
-    display:block}
-div.box3a {
+    display:inline-block}
+.box3a {
     height:100px;
     width:100%;
     background-color:  #85CFD8;
-    border: 10px solid white;}
-div.box3b{
+    border: 10px solid white;
+    display:inline-block}
+.box3b{
     height:100px;
     width:100%;
     background-color: #85CFD8;
-    border: 10px solid white}
+    border: 10px solid white;
+    display:inline-block}
 .box4{
     height:200px;
     width:100%;
-    display:block
+    display:inline-block;
 }  
-div.box4a{
+.box4a{
     height:100px;
     width:100%;
     border:10px solid white;
     background-color: #8DC63F;
+    display:inline-block
 
 }  
-div.box4b{
+.box4b{
     height:100px;
     width:100%;
     background-color:#E76E34; 
-    border:10px solid white
+    border:10px solid white;
+    display: inline-block
 }
 @media(min-width:768px){
 .box1{
@@ -84,7 +96,7 @@ div.box4b{
     width:100%
 }
 
-div.box2a{
+.box2a{
     height:100px;
     width:25%;
     background-color: #EE2E84;
@@ -92,7 +104,7 @@ div.box2a{
     display:inline-block;
  
 }
-div.box2b{
+.box2b{
     height:100px;
     width:25%;
     background-color:#EE2E84;
@@ -100,14 +112,14 @@ div.box2b{
     display:inline-block;
    
 }
-div.box2c{
+.box2c{
     height:100px;
     width:25%;
     background-color: #EE2E84;
     border:10px solid white;
     display:inline-block;
 }
-div.box2d{
+.box2d{
     height:100px;
     width:25%;
     background-color: #EE2E84;
@@ -121,14 +133,14 @@ div.box2d{
     display:inline-block;
 
 }
-div.box3a{
+.box3a{
     height:100px;
     width:50%;
     background-color: #85CFD8;
     border:10px solid white;
     display:inline-block;
 }
-div.box3b{
+.box3b{
     height:100px;
     width:50%;
     background-color: #85CFD8;
@@ -140,14 +152,14 @@ div.box3b{
     width:100%;
     display:inline-block;}
     
-    div.box4a{
+.box4a{
     height:100px;
     width:75%;
     background-color:#8DC63F;
     border:10px solid white;
     display:inline-block;
 }
-div.box4b{
+.box4b{
     height:100px;
     width:25%;
     background-color:#E76E34;
