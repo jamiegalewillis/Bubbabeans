@@ -1,7 +1,7 @@
 var readlineSync = require('readline-sync');
 const num1 = readlineSync.question("Please enter your first number: ");
 const num2 = readlineSync.question("Please enter your second number: ");
-const maths = readlineSync.question("Please enter operation to perform (add, sub, mult, div");
+const maths = readlineSync.question("Please enter operation to perform (add, sub, mult, div)");
 var operation = function(){
     if(maths === "add"){
         return parseInt(num1) + parseInt(num2)

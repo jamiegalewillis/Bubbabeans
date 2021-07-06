@@ -17,6 +17,10 @@ return newArray.length
 
 middleIndex()
 
+function halfUpper(){
+    var firstUpper =dog(Math.floor(dog.length/2))
+    console.log(firstUpper)
 
+}
 
 

@@ -1,19 +1,26 @@
-var employees=['']
-console.log(employees)
+var employees=[]
 
-function Employee(name, Jobtitle, Salary, jobStatus ){
+
+function Employee(name, Jobtitle, Salary ){
     this.name= name;
     this.Jobtitle = Jobtitle;
     this.Salary = Salary;
-    this.jobstatus =jobStatus
-    this.Status = function(){
-        console.log(this.jobstatus)
-    }
-
+    this.status = "full-time"
 }
+
+
 var newEmployee1 = new Employee ("Carlos", "Supervisor", "$54,000","full-time")
-console.log (newEmployee1)
+
 var newEmployee2 = new Employee("Patricia", "Secretary", "$33,000","full-time")
-console.log (newEmployee2)
+
 var newEmployee3 = new Employee("Joeseph", "Operator", "$40,000", "contractor")
-console.log (newEmployee3)
+newEmployee3.status = "part time"
+employees.push(newEmployee3)
+employees.push(newEmployee2)
+employees.push(newEmployee1)
+console.log(employees)
+
+function printEmployeeForm(){
+    console.log(employees)
+}
+printEmployeeForm()
